@@ -36,6 +36,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001853425881")"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
+START_IMG = os.environ.get("START_IMAGE", "https://graph.org//file/e54e0fad1b478e43c84a4.jpg") 
+
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first} !\n Please Join our Channel First [ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡️] then\n Download by tapping on ⚡️ ʀᴇʟᴏᴀᴅ Thank You ❤\n")
 try:
