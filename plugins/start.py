@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
             disable_web_page_preview = True,
             quote = True
             
-      else:
+      
         update.effective_message.reply_photo(
             IMG_START, caption= "<code>OwO Onichan! I am ready to play, hehe~</code>: <code>{}</code>".format(
                 uptime
