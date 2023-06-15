@@ -42,7 +42,7 @@ START_IMG = os.environ.get("START_IMAGE", "https://graph.org//file/e54e0fad1b478
 START_MSG = os.environ.get("START_MESSAGE", "• 𝗞𝗼𝗻𝗻𝗶𝗰𝗵𝗶𝘄𝗮 {first} 💫\n\n• 𝗬𝗼𝘂 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗷𝗼𝗶𝗻 𝗼𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 [ 𝗖𝗹𝗶𝗰𝗸 𝗼𝗻 𝗷𝗼𝗶𝗻 ] 𝘁𝗵𝗲𝗻\n\n• 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗯𝘆 𝘁𝗮𝗽𝗽𝗶𝗻𝗴 𝗼𝗻 📥 𝗥𝗲𝗹𝗼𝗮𝗱 📥 𝗞𝗲𝗲𝗽 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗶𝗻𝗴 😊\n\n</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5122071509 5850249548 5852955057 1730665149").split()):
+    for x in (os.environ.get("ADMINS", "5850249548 1730665149").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
